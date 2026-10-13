@@ -1,0 +1,27 @@
+# Ambiente e strumenti
+.env
+.env.*
+.envrc
+.venv/
+.claude/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Le analisi sono lavoro privato: rapporti e pagine restano fuori dal repository,
+# con qualunque nome di cartella. Si tracciano solo l'esempio inventato e il modello.
+work/
+out/
+*-workspace/
+**/report*.json*
+**/ai-privacy-check.html
+**/dettaglio.html
+**/sintesi.md
+**/pagina.txt
+!examples/fictional/report.json
+!examples/fictional/out/
+!examples/fictional/out/ai-privacy-check.html
+!examples/fictional/out/dettaglio.html
+!examples/fictional/out/sintesi.md
+!examples/fictional/out/pagina.txt
+!templates/report.template.json

@@ -1,0 +1,109 @@
+IA SU CIRCOLARI, CEDOLINI E CU: STUDIO ALFA
+Studio Alfa è uno studio inventato di cinque persone: due commercialisti, un consulente del lavoro, due impiegate. Segue 60 aziende e fa le paghe per 25. Vuole usare l'IA nel lavoro di tutti i giorni.
+
+ATTENZIONE ALTA
+- Nei cedolini ci sono dati su salute e sindacato di dipendenti delle aziende clienti
+- Oggi lo studio carica dati di clienti su un abbonamento personale condiviso
+- Lo scarico automatico delle CU con credenziali personali espone al reato di accesso abusivo
+
+SI PUÒ
+- Usare l'IA come supporto per riassunti e bozze, se verifica e firma il professionista (L. 132/2025 art. 13; Codice deontologico art. 21 c. 8-9)
+  NOTA: L'IA resta uno strumento di supporto. Le bozze possono contenere errori o norme sbagliate: fonti e contenuto vanno verificati prima dell'invio.
+  FONTE: Codice deontologico, art. 21 c. 8-9, Dalla base del 13 ottobre 2026. https://commercialisti.it/wp-content/uploads/2025/12/Codice-Deontologico_modifiche-2025_def.pdf
+  ALTRA FONTE: Legge 132/2025, art. 13. https://www.gazzettaufficiale.it/eli/id/2025/09/25/25G00143/sg
+- Trattare i cedolini con l'IA su un canale in UE senza conservazione, o con i campi sensibili oscurati (GDPR art. 9; Garante provv. 146/2019)
+  NOTA: Nei cedolini ci sono malattia, permessi e trattenute sindacali: sono dati su salute e sindacato.
+  FONTE: Garante, provv. 146/2019, Dalla base del 13 ottobre 2026. https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9124510
+- Scaricare le CU con la delega unica e il servizio API dell'Agenzia per gli intermediari (Provv. Agenzia Entrate 6/7/2026)
+  FONTE: Agenzia delle Entrate, servizi per gli intermediari, Dalla base del 13 ottobre 2026. https://www.agenziaentrate.gov.it/portale/i-servizi-per-gli-intermediari-fiscali
+- Usare un fornitore americano, se il contratto ha le clausole tipo e il trasferimento è valutato per iscritto (GDPR art. 44-46; Decisione (UE) 2021/914)
+  NOTA: Nelle informative non scrivere che i dati restano in UE se il fornitore li tratta negli Stati Uniti.
+  FONTE: Clausole contrattuali tipo, Dalla base del 13 ottobre 2026. https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021D0914
+
+NON SI PUÒ
+- Caricare dati di clienti su un abbonamento personale, o condividerne le credenziali (GDPR art. 28; Anthropic Consumer Terms sez. 2, sez. 11)
+  NOTA: I termini dei piani personali vietano l'uso professionale e la condivisione dell'account, e manca il contratto sul trattamento dei dati.
+  FONTE: Anthropic, Consumer Terms, Dalla base del 13 ottobre 2026. https://www.anthropic.com/legal/consumer-terms
+- Far entrare un agente in un portale pubblico con le credenziali personali di qualcuno (Codice penale art. 615-ter)
+  NOTA: L'accesso fuori dalle regole del portale espone al reato di accesso abusivo. Per l'Agenzia non è stata trovata una regola espressa sugli accessi automatizzati: vedi i punti aperti.
+  FONTE: Codice penale, art. 615-ter, Dalla base del 13 ottobre 2026. https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=1930-10-26&atto.codiceRedazionale=030U1398&atto.articolo.numero=615&atto.articolo.sottoArticolo=3&atto.articolo.sottoArticolo1=0&atto.articolo.tipoArticolo=1
+  ALTRA FONTE: Agenzia delle Entrate, servizi per gli intermediari. https://www.agenziaentrate.gov.it/portale/i-servizi-per-gli-intermediari-fiscali
+- Usare questi strumenti per controllare i dipendenti dei clienti senza accordo sindacale o Ispettorato (L. 300/1970 art. 4; D.Lgs. 152/1997 art. 1-bis)
+  NOTA: Se un cliente lo chiede, servono anche l'informativa ai lavoratori sui sistemi automatizzati.
+  FONTE: L. 300/1970, art. 4, Dalla base del 13 ottobre 2026. https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1970-05-20;300~art4
+  ALTRA FONTE: D.Lgs. 152/1997, art. 1-bis. https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1997-05-26;152~art1bis
+
+DA FARE
+1. Subito: Smetti di caricare dati di clienti sull'abbonamento personale ed elenca cosa è stato caricato (GDPR art. 28; GDPR art. 32; Privacy Center Anthropic)
+  NOTA: Poi spegni l'addestramento nelle impostazioni e cancella le conversazioni con dati di clienti.
+  FONTE: Anthropic, conservazione sui piani personali, Dalla base del 13 ottobre 2026. https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data
+  ALTRA FONTE: GDPR, art. 28 e 32. https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679
+2. Prima di continuare: Attiva un piano commerciale e accetta il contratto sul trattamento dei dati del fornitore (GDPR art. 28(3))
+  FONTE: GDPR, art. 28, Dalla base del 13 ottobre 2026. https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679
+3. Prima di continuare: Chiedi alle 25 aziende l'autorizzazione scritta, con il fornitore di IA indicato per nome (GDPR art. 28(2), 28(4); Garante doc. web 9080970)
+  NOTA: Per le paghe lo studio è responsabile, non titolare: ogni sub-fornitore va autorizzato dall'azienda cliente.
+  FONTE: Garante, risposta ai consulenti del lavoro, Dalla base del 13 ottobre 2026. https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9080970
+4. Prima di continuare: Prepara la parte tecnica della valutazione d'impatto e chiedi alle aziende clienti di completarla (GDPR art. 35; WP248 rev.01; Garante provv. 467/2018)
+  NOTA: IA su dati di dipendenti: dati sensibili, persone vulnerabili, tecnologia nuova. La valutazione spetta all'azienda cliente, che è titolare.
+  FONTE: Garante, elenco DPIA, Dalla base del 13 ottobre 2026. https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=0&art.flagTipoArticolo=1&art.codiceRedazionale=18A07359&art.idArticolo=1&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2018-11-19&art.progressivo=0
+5. Entro 30 giorni: Comunica per iscritto ai clienti che lo studio usa l'IA, con l'elenco degli strumenti (L. 132/2025 art. 13; Codice deontologico art. 21 c. 10)
+  FONTE: Codice deontologico, art. 21, Dalla base del 13 ottobre 2026. https://commercialisti.it/wp-content/uploads/2025/12/Codice-Deontologico_modifiche-2025_def.pdf
+6. Entro 30 giorni: Compila il registro dei trattamenti, come titolare e come responsabile (GDPR art. 30(2), 30(5))
+  NOTA: Con l'IA tra gli strumenti e il fornitore tra i destinatari.
+  FONTE: GDPR, art. 30, Dalla base del 13 ottobre 2026. https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679
+7. Entro 30 giorni: Scrivi una regola interna di una pagina e fai una formazione documentata sull'IA (AI Act art. 4; D.Lgs. 179/2026 art. 47)
+  FONTE: D.Lgs. 179/2026, art. 47, Dalla base del 13 ottobre 2026. https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2026-10-07;179~art47
+
+COSA SI RISCHIA
+- I testi caricati sull'abbonamento personale possono essere usati per addestrare i modelli e restare dal fornitore per anni.
+- Per le violazioni degli obblighi su contratti e sicurezza il GDPR prevede sanzioni fino a 10 milioni di euro o al 2% del fatturato.
+- Entrare in un portale con credenziali altrui fuori dalle sue regole è un reato.
+
+CHI FA COSA
+- titolare: Ciascuna delle 25 aziende clienti, per i dati dei propri dipendenti. Documento: Contratto di nomina dello studio a responsabile, aggiornato con il fornitore di IA
+- responsabile: Studio Alfa, per le paghe. Documento: Lo stesso contratto, più il registro dei trattamenti come responsabile
+- sub-responsabile: Il fornitore del modello di IA. Documento: Contratto sui dati del fornitore e autorizzazione scritta di ogni azienda cliente
+- titolare: Studio Alfa, per consulenza, contabilità e dati dei propri clienti. Documento: Informativa aggiornata e contratto sui dati con il fornitore
+- persone autorizzate: Le cinque persone dello studio. Documento: Lettera nominativa con cosa si può caricare e cosa no
+
+SOLUZIONI
+- [consigliata] Piano commerciale a posti, più un flusso separato in UE per i cedolini: Bozze e riassunti sul piano a posti. Cedolini e CU su un modello open erogato da un provider europeo che dichiara di non conservare i contenuti. Costo: 125 $ al mese per 5 posti, più circa 3 € al mese di consumo
+  PRO: I dati sensibili non passano dal piano a posti; Costo di consumo molto basso; Nessun hardware da gestire
+  CONTRO: Il flusso sui cedolini va costruito; La qualità del modello open in italiano va provata
+- [non basta] Solo piano commerciale a posti: Tutto il lavoro. Per i cedolini non basta: il contratto del fornitore non contempla i dati sensibili. Costo: 125 $ al mese per 5 posti
+  PRO: Pronto subito
+  CONTRO: L'oscuramento a mano si dimentica; Il contratto del fornitore non contempla le categorie particolari
+- [alternativa] Macchina in studio con modello open: Tutto il lavoro sui documenti, senza fornitori esterni di IA. Costo: 5.909 € IVA inclusa una tantum, circa 163 € al mese su tre anni con l'energia
+  PRO: Nessun trasferimento di dati; Nessun contratto con un fornitore di IA
+  CONTRO: Sicurezza, backup e aggiornamenti restano allo studio; Spesa iniziale
+
+COSTI
+Cinque persone. Per le voci a consumo: 20 milioni di token in ingresso e 4 in uscita al mese. È un'ipotesi: va sostituita con i consumi reali. Prezzi di listino letti il 13 ottobre 2026, tasse escluse.
+- Piano commerciale a posti, 5 posti: 125,00 $ al mese. Mensile. Con fatturazione annuale 100 $.
+- API di un modello open in UE: 3,20 € al mese. Qualità in italiano da provare.
+- API di un modello closed in regione UE: 88,00 $ al mese. Alternativa al modello open per il flusso sui cedolini.
+- Mac Studio 128 GB in studio: 162,90 € al mese. 4.843 € senza IVA su 36 mesi, più energia per 100 W medi.
+
+PUNTI APERTI
+- Nessuna fonte è stata riaperta online per questo esempio: tutte le azioni vengono dalla base del 13 ottobre 2026.
+- Per l'Agenzia delle Entrate non è stata trovata una regola espressa sugli accessi automatizzati fuori dai servizi API: va chiesto per iscritto.
+- Il contratto sui dati di alcuni fornitori indica "None" alla voce categorie particolari: non è chiaro se sia un divieto o un'assenza di previsione.
+- Il D.Lgs. 179/2026 entra in vigore il 23 ottobre 2026: le ore minime di formazione sull'IA non sono ancora fissate.
+- La soglia per l'esenzione dal registro dei trattamenti potrebbe cambiare: una modifica è al voto il 23 novembre 2026.
+- Non è chiaro se i caricamenti già fatti sull'abbonamento personale siano una violazione da notificare: va chiesto a un legale privacy.
+
+FONTI
+- Codice deontologico, art. 21 c. 8-9 (base): https://commercialisti.it/wp-content/uploads/2025/12/Codice-Deontologico_modifiche-2025_def.pdf
+- Legge 132/2025, art. 13 (base): https://www.gazzettaufficiale.it/eli/id/2025/09/25/25G00143/sg
+- Garante, provv. 146/2019 (base): https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9124510
+- Agenzia delle Entrate, servizi per gli intermediari (base): https://www.agenziaentrate.gov.it/portale/i-servizi-per-gli-intermediari-fiscali
+- Clausole contrattuali tipo (base): https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021D0914
+- Anthropic, Consumer Terms (base): https://www.anthropic.com/legal/consumer-terms
+- Codice penale, art. 615-ter (base): https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=1930-10-26&atto.codiceRedazionale=030U1398&atto.articolo.numero=615&atto.articolo.sottoArticolo=3&atto.articolo.sottoArticolo1=0&atto.articolo.tipoArticolo=1
+- L. 300/1970, art. 4 (base): https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1970-05-20;300~art4
+- D.Lgs. 152/1997, art. 1-bis (base): https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1997-05-26;152~art1bis
+- Anthropic, conservazione sui piani personali (base): https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data
+- GDPR, art. 28 e 32 (base): https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679
+- Garante, risposta ai consulenti del lavoro (base): https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9080970
+- Garante, elenco DPIA (base): https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=0&art.flagTipoArticolo=1&art.codiceRedazionale=18A07359&art.idArticolo=1&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2018-11-19&art.progressivo=0
+- D.Lgs. 179/2026, art. 47 (base): https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2026-10-07;179~art47

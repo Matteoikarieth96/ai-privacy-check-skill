@@ -1,0 +1,23 @@
+{
+ "skill_name": "ai-privacy-check",
+ "evals": [
+  {
+   "id": 1,
+   "prompt": "Sono un consulente del lavoro, studio di 3 persone a Brescia. Facciamo le paghe per una quarantina di aziende. Vorrei mettere un assistente di IA che legge i cedolini e risponde alle domande dei dipendenti dei nostri clienti (tipo \"perché questo mese ho preso meno?\"), via chat sul nostro portale. Oggi usiamo ChatGPT Plus con un account solo che ci passiamo. Nei cedolini ci sono malattia, permessi 104 e trattenute sindacali. Non abbiamo vincoli particolari ma preferiremmo che i dati restassero in Europa. Volumi: circa 1.500 cedolini al mese. Possiamo farlo? Cosa ci serve? Ricontrolla pure online le fonti. La pagina è per uso interno.",
+   "expected_output": "Rapporto di una pagina (si può, non si può, da fare), allegato e sintesi: livello alto, studio responsabile per le paghe e fornitore IA sub-responsabile con autorizzazione dei clienti, dati art. 9 fuori dai piani a posti, DPIA, account personale condiviso da chiudere, obbligo di dichiarare che il chatbot è un'IA, informazione ai clienti, soluzione in UE con costi.",
+   "files": []
+  },
+  {
+   "id": 2,
+   "prompt": "Gestisco un poliambulatorio privato a Padova: 12 persone, 6 tra medici e odontoiatri. Vogliamo due cose: registrare e trascrivere le visite con l'IA per avere la bozza del referto, e far compilare a un agente le richieste di rimborso sui portali dei fondi sanitari usando le credenziali della segreteria. Un fornitore ci ha proposto il suo software dicendo che ha i server in Europa; in alternativa pensavamo a un Mac in studio con un modello open source. Circa 900 visite al mese. È a norma? Cosa dobbiamo fare prima di partire? Fai anche il ricontrollo online delle fonti. La pagina la giro al direttore sanitario.",
+   "expected_output": "Rapporto di una pagina (si può, non si può, da fare), allegato e sintesi: livello alto, dati sanitari fuori dai piani a posti, informazione al paziente e decisione al medico, trascrizione come prassi prudente senza regola italiana, portali solo con ok scritto del gestore e persona che invia, fornitore come responsabile e amministratore di sistema, confronto software in UE contro Mac locale con costi, DPIA.",
+   "files": []
+  },
+  {
+   "id": 3,
+   "prompt": "Studio legale penale a Bari, 6 persone: 3 avvocati, 2 praticanti, 1 segretaria. Da qualche mese usiamo un abbonamento Claude Pro intestato a me, la password la conoscono tutti. Ci carichiamo ordinanze, verbali e a volte perizie mediche per farci fare riassunti e bozze di memorie. I clienti non lo sanno. Vorrei capire cosa rischiamo e come sistemare, spendendo il meno possibile. Niente ricerche online, mi basta la base. Uso interno.",
+   "expected_output": "Rapporto di una pagina (si può, non si può, da fare), allegato e sintesi, senza ricontrollo online: livello alto, piano personale vietato per uso professionale e condiviso, segreto professionale, dati giudiziari e sanitari su canale adatto, informazione al cliente con schema CNF, verifica delle citazioni, soluzione economica con costi.",
+   "files": []
+  }
+ ]
+}

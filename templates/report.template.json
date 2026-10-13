@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "titolo": "",
+    "data": "",
+    "settore": "",
+    "base_verificata_il": "",
+    "ricontrollo": "online",
+    "ricontrollo_dettaglio": ""
+  },
+  "caso": {
+    "descrizione": "",
+    "obiettivi": [],
+    "strumenti": [],
+    "persone": 0,
+    "gia_in_uso": false
+  },
+  "segnali": {
+    "dati_personali": false,
+    "dati_particolari": false,
+    "dati_giudiziari": false,
+    "lavoratori": false,
+    "minori": false,
+    "decisioni_su_persone": false,
+    "portali_di_terzi": false,
+    "fuori_ue": false,
+    "dialoga_con_persone": false
+  },
+  "segnali_da_confermare": [],
+  "attenzione": {
+    "livello": "",
+    "motivi": []
+  },
+  "rischi": [],
+  "ruoli": [
+    {
+      "ruolo": "titolare",
+      "chi": "",
+      "documento": ""
+    }
+  ],
+  "righe": [
+    {
+      "tipo": "si_puo",
+      "azione": "",
+      "nota": "",
+      "norme": [],
+      "fonte": {
+        "stato": "base",
+        "data": "",
+        "url": "",
+        "etichetta": ""
+      },
+      "altre_fonti": []
+    },
+    {
+      "tipo": "non_si_puo",
+      "azione": "",
+      "nota": "",
+      "norme": [],
+      "fonte": {
+        "stato": "base",
+        "data": "",
+        "url": "",
+        "etichetta": ""
+      }
+    },
+    {
+      "tipo": "da_fare",
+      "quando": "prima",
+      "azione": "",
+      "nota": "",
+      "norme": [],
+      "fonte": {
+        "stato": "base",
+        "data": "",
+        "url": "",
+        "etichetta": ""
+      }
+    }
+  ],
+  "setup": [
+    {
+      "nome": "",
+      "per_cosa": "",
+      "pro": [],
+      "contro": [],
+      "costo": "",
+      "consigliato": true,
+      "condizione": ""
+    },
+    {
+      "nome": "",
+      "per_cosa": "",
+      "pro": [],
+      "contro": [],
+      "costo": "",
+      "consigliato": false,
+      "regge": false
+    }
+  ],
+  "costi": {
+    "ipotesi": "",
+    "voci": [
+      {
+        "voce": "",
+        "importo": "",
+        "nota": ""
+      }
+    ]
+  },
+  "aperti": [],
+  "fonti": []
+}

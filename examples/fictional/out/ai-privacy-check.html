@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src &#x27;none&#x27;; style-src &#x27;unsafe-inline&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;">
+<title>IA su circolari, cedolini e CU: Studio Alfa</title>
+<style>:root{--bg:#F3F5F9;--surface:#FFFFFF;--ink:#141A2A;--muted:#566079;--line:#D5DAE5;--accent:#2438B8;--accent-soft:#E4E8FA;--ok:#1B6E48;--ok-soft:#DDF1E6;--warn:#8A5200;--warn-soft:#FAEBCF;--stop:#A8231C;--stop-soft:#FADFDC}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0E121B;--surface:#161B27;--ink:#E6E9F2;--muted:#9BA4BA;--line:#2B3246;--accent:#9AAAFF;--accent-soft:#1D2548;--ok:#63C898;--ok-soft:#12301F;--warn:#E5AC55;--warn-soft:#3A2A0C;--stop:#F38C84;--stop-soft:#3D1614;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0E121B;--surface:#161B27;--ink:#E6E9F2;--muted:#9BA4BA;--line:#2B3246;--accent:#9AAAFF;--accent-soft:#1D2548;--ok:#63C898;--ok-soft:#12301F;--warn:#E5AC55;--warn-soft:#3A2A0C;--stop:#F38C84;--stop-soft:#3D1614;color-scheme:dark}
+
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Helvetica Neue",Arial,sans-serif;font-size:13.5px;line-height:1.4}
+.page{max-width:210mm;margin:24px auto;padding:11mm 12mm 9mm;background:var(--surface);border:1px solid var(--line);display:grid;gap:1em}
+header{display:grid;gap:.45em}
+h1{margin:0;font-size:1.7em;line-height:1.15;letter-spacing:-0.01em;text-wrap:balance}
+h2{margin:0;font-size:.95em;line-height:1.2;letter-spacing:.05em;text-transform:uppercase}
+p{margin:0}
+a{color:inherit;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:2px}
+.eyebrow{font-size:.78em;letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+.caso{color:var(--muted);font-size:.93em}
+.level{padding:.5em .75em;background:var(--bg);border-left:5px solid var(--muted);font-size:.93em}
+.level.alta{border-left-color:var(--stop)}.level.media{border-left-color:var(--warn)}.level.bassa{border-left-color:var(--ok)}
+.banner{padding:.45em .75em;background:var(--warn-soft);color:var(--warn);font-size:.9em}
+.due{display:grid;grid-template-columns:1fr 1fr;gap:1.1em;align-items:start}
+.blocco{display:grid;gap:.55em;align-content:start;border-top:4px solid var(--line);padding-top:.55em;min-width:0}
+.blocco.si{border-top-color:var(--ok)}.blocco.si h2{color:var(--ok)}
+.blocco.no{border-top-color:var(--stop)}.blocco.no h2{color:var(--stop)}
+.blocco.fare{border-top-color:var(--accent)}.blocco.fare h2{color:var(--accent)}
+ul,ol{margin:0;padding:0;list-style:none;display:grid;gap:.5em}
+li{break-inside:avoid}
+.si li,.no li,.ap li{padding-left:1em;position:relative}
+.si li::before,.no li::before,.ap li::before{content:"";position:absolute;left:0;top:.5em;width:.42em;height:.42em;border-radius:50%;background:var(--ok)}
+.no li::before{background:var(--stop)}
+.ap li::before{background:var(--muted)}
+.fare ol{display:block;columns:2;column-gap:1.1em;counter-reset:n}
+.fare li{counter-increment:n;position:relative;padding-left:1.75em;margin-bottom:.5em}
+.fare li::before{content:counter(n);position:absolute;left:0;top:.1em;width:1.6em;height:1.6em;border-radius:50%;background:var(--accent);color:var(--surface);font-size:.74em;font-weight:700;line-height:1.6em;text-align:center}
+.q{font-weight:700;font-size:.78em;letter-spacing:.04em;text-transform:uppercase;color:var(--accent);margin-right:.25em}
+.q.subito{color:var(--stop)}
+.n{color:var(--muted);font-size:.82em}
+.nv{font-size:.72em;font-weight:700;text-transform:uppercase;color:var(--warn);background:var(--warn-soft);padding:0 .45em;border-radius:3px;white-space:nowrap}
+.note{color:var(--muted);font-size:.86em}
+footer{font-size:.78em;color:var(--muted);border-top:1px solid var(--line);padding-top:.6em}
+@media (max-width:640px){.page{margin:0;border:0;padding:20px 16px}.due{grid-template-columns:1fr}.fare ol{columns:1}}
+@media print{
+:root,:root:not([data-theme="light"]),:root[data-theme="dark"]{--bg:#F3F5F9;--surface:#FFFFFF;--ink:#141A2A;--muted:#566079;--line:#D5DAE5;--accent:#2438B8;--accent-soft:#E4E8FA;--ok:#1B6E48;--ok-soft:#DDF1E6;--warn:#8A5200;--warn-soft:#FAEBCF;--stop:#A8231C;--stop-soft:#FADFDC;color-scheme:light}
+@page{size:A4;margin:0}
+body{background:#fff;font-size:11.6px}
+.page{margin:0;border:0;max-width:none;width:210mm;padding:9mm 12mm 7mm;gap:.85em}
+a{text-decoration:none}
+}
+</style>
+</head>
+<body>
+<div class="page">
+<header><span class="eyebrow">Privacy e IA · Commercialisti e consulenti del lavoro · 13 ottobre 2026</span><h1>IA su circolari, cedolini e CU: Studio Alfa</h1><p class="caso">Studio Alfa è uno studio inventato di cinque persone: due commercialisti, un consulente del lavoro, due impiegate. Segue 60 aziende e fa le paghe per 25. Vuole usare l&#x27;IA nel lavoro di tutti i giorni.</p><p class="level alta"><strong>Attenzione alta.</strong> Nei cedolini ci sono dati su salute e sindacato di dipendenti delle aziende clienti. Oggi lo studio carica dati di clienti su un abbonamento personale condiviso. Lo scarico automatico delle CU con credenziali personali espone al reato di accesso abusivo.</p></header>
+<div class="due"><section class="blocco si"><h2>Si può</h2><ul><li>Usare l&#x27;IA come supporto per riassunti e bozze, se verifica e firma il professionista <span class="n"><a href="https://commercialisti.it/wp-content/uploads/2025/12/Codice-Deontologico_modifiche-2025_def.pdf" rel="noopener noreferrer" target="_blank">L. 132/2025 art. 13; Codice deontologico art. 21 c. 8-9</a></span></li><li>Trattare i cedolini con l&#x27;IA su un canale in UE senza conservazione, o con i campi sensibili oscurati <span class="n"><a href="https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9124510" rel="noopener noreferrer" target="_blank">GDPR art. 9; Garante provv. 146/2019</a></span></li><li>Scaricare le CU con la delega unica e il servizio API dell&#x27;Agenzia per gli intermediari <span class="n"><a href="https://www.agenziaentrate.gov.it/portale/i-servizi-per-gli-intermediari-fiscali" rel="noopener noreferrer" target="_blank">Provv. Agenzia Entrate 6/7/2026</a></span></li><li>Usare un fornitore americano, se il contratto ha le clausole tipo e il trasferimento è valutato per iscritto <span class="n"><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021D0914" rel="noopener noreferrer" target="_blank">GDPR art. 44-46; Decisione (UE) 2021/914</a></span></li></ul></section><section class="blocco no"><h2>Non si può</h2><ul><li>Caricare dati di clienti su un abbonamento personale, o condividerne le credenziali <span class="n"><a href="https://www.anthropic.com/legal/consumer-terms" rel="noopener noreferrer" target="_blank">GDPR art. 28; Anthropic Consumer Terms sez. 2, sez. 11</a></span></li><li>Far entrare un agente in un portale pubblico con le credenziali personali di qualcuno <span class="n"><a href="https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=1930-10-26&amp;atto.codiceRedazionale=030U1398&amp;atto.articolo.numero=615&amp;atto.articolo.sottoArticolo=3&amp;atto.articolo.sottoArticolo1=0&amp;atto.articolo.tipoArticolo=1" rel="noopener noreferrer" target="_blank">Codice penale art. 615-ter</a></span></li><li>Usare questi strumenti per controllare i dipendenti dei clienti senza accordo sindacale o Ispettorato <span class="n"><a href="https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1970-05-20;300~art4" rel="noopener noreferrer" target="_blank">L. 300/1970 art. 4; D.Lgs. 152/1997 art. 1-bis</a></span></li></ul></section></div>
+<section class="blocco fare"><h2>Da fare</h2><ol><li><span class="q subito">Subito</span> Smetti di caricare dati di clienti sull&#x27;abbonamento personale ed elenca cosa è stato caricato <span class="n"><a href="https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data" rel="noopener noreferrer" target="_blank">GDPR art. 28; GDPR art. 32; Privacy Center Anthropic</a></span></li><li><span class="q">Prima di continuare</span> Attiva un piano commerciale e accetta il contratto sul trattamento dei dati del fornitore <span class="n"><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679" rel="noopener noreferrer" target="_blank">GDPR art. 28(3)</a></span></li><li><span class="q">Prima di continuare</span> Chiedi alle 25 aziende l&#x27;autorizzazione scritta, con il fornitore di IA indicato per nome <span class="n"><a href="https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9080970" rel="noopener noreferrer" target="_blank">GDPR art. 28(2), 28(4); Garante doc. web 9080970</a></span></li><li><span class="q">Prima di continuare</span> Prepara la parte tecnica della valutazione d&#x27;impatto e chiedi alle aziende clienti di completarla <span class="n"><a href="https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&amp;art.idGruppo=0&amp;art.flagTipoArticolo=1&amp;art.codiceRedazionale=18A07359&amp;art.idArticolo=1&amp;art.idSottoArticolo=1&amp;art.idSottoArticolo1=10&amp;art.dataPubblicazioneGazzetta=2018-11-19&amp;art.progressivo=0" rel="noopener noreferrer" target="_blank">GDPR art. 35; WP248 rev.01; Garante provv. 467/2018</a></span></li><li><span class="q">Entro 30 giorni</span> Comunica per iscritto ai clienti che lo studio usa l&#x27;IA, con l&#x27;elenco degli strumenti <span class="n"><a href="https://commercialisti.it/wp-content/uploads/2025/12/Codice-Deontologico_modifiche-2025_def.pdf" rel="noopener noreferrer" target="_blank">L. 132/2025 art. 13; Codice deontologico art. 21 c. 10</a></span></li><li><span class="q">Entro 30 giorni</span> Compila il registro dei trattamenti, come titolare e come responsabile <span class="n"><a href="https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679" rel="noopener noreferrer" target="_blank">GDPR art. 30(2), 30(5)</a></span></li><li><span class="q">Entro 30 giorni</span> Scrivi una regola interna di una pagina e fai una formazione documentata sull&#x27;IA <span class="n"><a href="https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2026-10-07;179~art47" rel="noopener noreferrer" target="_blank">AI Act art. 4; D.Lgs. 179/2026 art. 47</a></span></li></ol></section>
+<div class="due"><section class="blocco"><h2>Soluzione consigliata</h2><p><strong>Piano commerciale a posti, più un flusso separato in UE per i cedolini</strong></p><p>Bozze e riassunti sul piano a posti. Cedolini e CU su un modello open erogato da un provider europeo che dichiara di non conservare i contenuti.</p><p>Costo: 125 $ al mese per 5 posti, più circa 3 € al mese di consumo.</p><p class="note">Non basta per questi dati: Solo piano commerciale a posti.</p></section><section class="blocco ap"><h2>Punti aperti</h2><ul><li>Nessuna fonte è stata riaperta online per questo esempio: tutte le azioni vengono dalla base del 13 ottobre 2026.</li><li>Per l&#x27;Agenzia delle Entrate non è stata trovata una regola espressa sugli accessi automatizzati fuori dai servizi API: va chiesto per iscritto.</li><li>Il contratto sui dati di alcuni fornitori indica &quot;None&quot; alla voce categorie particolari: non è chiaro se sia un divieto o un&#x27;assenza di previsione.</li></ul><p class="note">Altri 3 nel dettaglio.</p></section></div>
+<footer><p>Analisi preliminare del 13 ottobre 2026 su fonti pubbliche, base del 13 ottobre 2026. Azioni con la fonte riaperta in questa analisi: 0 su 14; non verificate: 0. Ruoli, alternative, costi e fonti con link sono nell'allegato dettaglio.html. Non è un parere legale: contratti, informative e valutazione d&#x27;impatto vanno riletti da un legale privacy.</p></footer>
+</div>
+</body>
+</html>

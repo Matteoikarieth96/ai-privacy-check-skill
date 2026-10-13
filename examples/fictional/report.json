@@ -1,0 +1,414 @@
+{
+ "meta": {
+  "titolo": "IA su circolari, cedolini e CU: Studio Alfa",
+  "data": "2026-10-13",
+  "settore": "commercialisti",
+  "base_verificata_il": "2026-10-13",
+  "ricontrollo": "nessuno"
+ },
+ "caso": {
+  "descrizione": "Studio Alfa è uno studio inventato di cinque persone: due commercialisti, un consulente del lavoro, due impiegate. Segue 60 aziende e fa le paghe per 25. Vuole usare l'IA nel lavoro di tutti i giorni.",
+  "obiettivi": [
+   "Riassumere circolari e scrivere bozze di risposta ai clienti",
+   "Leggere cedolini e CU per trovare errori",
+   "Scaricare in automatico le CU dal sito dell'Agenzia delle Entrate"
+  ],
+  "strumenti": [
+   "Un abbonamento personale a un assistente di IA, usato da più persone",
+   "Gestionale paghe dello studio"
+  ],
+  "persone": 5,
+  "gia_in_uso": true
+ },
+ "segnali": {
+  "dati_personali": true,
+  "dati_particolari": true,
+  "dati_giudiziari": false,
+  "lavoratori": true,
+  "minori": false,
+  "decisioni_su_persone": false,
+  "portali_di_terzi": true,
+  "fuori_ue": true,
+  "dialoga_con_persone": false
+ },
+ "attenzione": {
+  "livello": "alta",
+  "motivi": [
+   "Nei cedolini ci sono dati su salute e sindacato di dipendenti delle aziende clienti",
+   "Oggi lo studio carica dati di clienti su un abbonamento personale condiviso",
+   "Lo scarico automatico delle CU con credenziali personali espone al reato di accesso abusivo"
+  ]
+ },
+ "ruoli": [
+  {
+   "ruolo": "titolare",
+   "chi": "Ciascuna delle 25 aziende clienti, per i dati dei propri dipendenti",
+   "documento": "Contratto di nomina dello studio a responsabile, aggiornato con il fornitore di IA"
+  },
+  {
+   "ruolo": "responsabile",
+   "chi": "Studio Alfa, per le paghe",
+   "documento": "Lo stesso contratto, più il registro dei trattamenti come responsabile"
+  },
+  {
+   "ruolo": "sub-responsabile",
+   "chi": "Il fornitore del modello di IA",
+   "documento": "Contratto sui dati del fornitore e autorizzazione scritta di ogni azienda cliente"
+  },
+  {
+   "ruolo": "titolare",
+   "chi": "Studio Alfa, per consulenza, contabilità e dati dei propri clienti",
+   "documento": "Informativa aggiornata e contratto sui dati con il fornitore"
+  },
+  {
+   "ruolo": "persone autorizzate",
+   "chi": "Le cinque persone dello studio",
+   "documento": "Lettera nominativa con cosa si può caricare e cosa no"
+  }
+ ],
+ "righe": [
+  {
+   "tipo": "si_puo",
+   "azione": "Usare l'IA come supporto per riassunti e bozze, se verifica e firma il professionista",
+   "nota": "L'IA resta uno strumento di supporto. Le bozze possono contenere errori o norme sbagliate: fonti e contenuto vanno verificati prima dell'invio.",
+   "norme": [
+    "L. 132/2025 art. 13",
+    "Codice deontologico art. 21 c. 8-9"
+   ],
+   "fonte": {
+    "stato": "base",
+    "data": "2026-10-13",
+    "url": "https://commercialisti.it/wp-content/uploads/2025/12/Codice-Deontologico_modifiche-2025_def.pdf",
+    "etichetta": "Codice deontologico, art. 21 c. 8-9"
+   },
+   "altre_fonti": [
+    {
+     "stato": "base",
+     "data": "2026-10-13",
+     "url": "https://www.gazzettaufficiale.it/eli/id/2025/09/25/25G00143/sg",
+     "etichetta": "Legge 132/2025, art. 13"
+    }
+   ]
+  },
+  {
+   "tipo": "si_puo",
+   "azione": "Trattare i cedolini con l'IA su un canale in UE senza conservazione, o con i campi sensibili oscurati",
+   "nota": "Nei cedolini ci sono malattia, permessi e trattenute sindacali: sono dati su salute e sindacato.",
+   "norme": [
+    "GDPR art. 9",
+    "Garante provv. 146/2019"
+   ],
+   "fonte": {
+    "stato": "base",
+    "data": "2026-10-13",
+    "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9124510",
+    "etichetta": "Garante, provv. 146/2019"
+   }
+  },
+  {
+   "tipo": "si_puo",
+   "azione": "Scaricare le CU con la delega unica e il servizio API dell'Agenzia per gli intermediari",
+   "norme": [
+    "Provv. Agenzia Entrate 6/7/2026"
+   ],
+   "fonte": {
+    "stato": "base",
+    "data": "2026-10-13",
+    "url": "https://www.agenziaentrate.gov.it/portale/i-servizi-per-gli-intermediari-fiscali",
+    "etichetta": "Agenzia delle Entrate, servizi per gli intermediari"
+   }
+  },
+  {
+   "tipo": "si_puo",
+   "azione": "Usare un fornitore americano, se il contratto ha le clausole tipo e il trasferimento è valutato per iscritto",
+   "nota": "Nelle informative non scrivere che i dati restano in UE se il fornitore li tratta negli Stati Uniti.",
+   "norme": [
+    "GDPR art. 44-46",
+    "Decisione (UE) 2021/914"
+   ],
+   "fonte": {
+    "stato": "base",
+    "data": "2026-10-13",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32021D0914",
+    "etichetta": "Clausole contrattuali tipo"
+   }
+  },
+  {
+   "tipo": "non_si_puo",
+   "azione": "Caricare dati di clienti su un abbonamento personale, o condividerne le credenziali",
+   "nota": "I termini dei piani personali vietano l'uso professionale e la condivisione dell'account, e manca il contratto sul trattamento dei dati.",
+   "norme": [
+    "GDPR art. 28",
+    "Anthropic Consumer Terms sez. 2, sez. 11"
+   ],
+   "fonte": {
+    "stato": "base",
+    "data": "2026-10-13",
+    "url": "https://www.anthropic.com/legal/consumer-terms",
+    "etichetta": "Anthropic, Consumer Terms"
+   }
+  },
+  {
+   "tipo": "non_si_puo",
+   "azione": "Far entrare un agente in un portale pubblico con le credenziali personali di qualcuno",
+   "nota": "L'accesso fuori dalle regole del portale espone al reato di accesso abusivo. Per l'Agenzia non è stata trovata una regola espressa sugli accessi automatizzati: vedi i punti aperti.",
+   "norme": [
+    "Codice penale art. 615-ter"
+   ],
+   "fonte": {
+    "stato": "base",
+    "data": "2026-10-13",
+    "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=1930-10-26&atto.codiceRedazionale=030U1398&atto.articolo.numero=615&atto.articolo.sottoArticolo=3&atto.articolo.sottoArticolo1=0&atto.articolo.tipoArticolo=1",
+    "etichetta": "Codice penale, art. 615-ter"
+   },
+   "altre_fonti": [
+    {
+     "stato": "base",
+     "data": "2026-10-13",
+     "url": "https://www.agenziaentrate.gov.it/portale/i-servizi-per-gli-intermediari-fiscali",
+     "etichetta": "Agenzia delle Entrate, servizi per gli intermediari"
+    }
+   ]
+  },
+  {
+   "tipo": "non_si_puo",
+   "azione": "Usare questi strumenti per controllare i dipendenti dei clienti senza accordo sindacale o Ispettorato",
+   "nota": "Se un cliente lo chiede, servono anche l'informativa ai lavoratori sui sistemi automatizzati.",
+   "norme": [
+    "L. 300/1970 art. 4",
+    "D.Lgs. 152/1997 art. 1-bis"
+   ],
+   "fonte": {
+    "stato": "base",
+    "data": "2026-10-13",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1970-05-20;300~art4",
+    "etichetta": "L. 300/1970, art. 4"
+   },
+   "altre_fonti": [
+    {
+     "stato": "base",
+     "data": "2026-10-13",
+     "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1997-05-26;152~art1bis",
+     "etichetta": "D.Lgs. 152/1997, art. 1-bis"
+    }
+   ]
+  },
+  {
+   "tipo": "da_fare",
+   "quando": "subito",
+   "azione": "Smetti di caricare dati di clienti sull'abbonamento personale ed elenca cosa è stato caricato",
+   "nota": "Poi spegni l'addestramento nelle impostazioni e cancella le conversazioni con dati di clienti.",
+   "norme": [
+    "GDPR art. 28",
+    "GDPR art. 32",
+    "Privacy Center Anthropic"
+   ],
+   "fonte": {
+    "stato": "base",
+    "data": "2026-10-13",
+    "url": "https://privacy.claude.com/en/articles/10023548-how-long-do-you-store-my-data",
+    "etichetta": "Anthropic, conservazione sui piani personali"
+   },
+   "altre_fonti": [
+    {
+     "stato": "base",
+     "data": "2026-10-13",
+     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679",
+     "etichetta": "GDPR, art. 28 e 32"
+    }
+   ]
+  },
+  {
+   "tipo": "da_fare",
+   "quando": "prima",
+   "azione": "Attiva un piano commerciale e accetta il contratto sul trattamento dei dati del fornitore",
+   "norme": [
+    "GDPR art. 28(3)"
+   ],
+   "fonte": {
+    "stato": "base",
+    "data": "2026-10-13",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679",
+    "etichetta": "GDPR, art. 28"
+   }
+  },
+  {
+   "tipo": "da_fare",
+   "quando": "prima",
+   "azione": "Chiedi alle 25 aziende l'autorizzazione scritta, con il fornitore di IA indicato per nome",
+   "nota": "Per le paghe lo studio è responsabile, non titolare: ogni sub-fornitore va autorizzato dall'azienda cliente.",
+   "norme": [
+    "GDPR art. 28(2), 28(4)",
+    "Garante doc. web 9080970"
+   ],
+   "fonte": {
+    "stato": "base",
+    "data": "2026-10-13",
+    "url": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9080970",
+    "etichetta": "Garante, risposta ai consulenti del lavoro"
+   }
+  },
+  {
+   "tipo": "da_fare",
+   "quando": "prima",
+   "azione": "Prepara la parte tecnica della valutazione d'impatto e chiedi alle aziende clienti di completarla",
+   "nota": "IA su dati di dipendenti: dati sensibili, persone vulnerabili, tecnologia nuova. La valutazione spetta all'azienda cliente, che è titolare.",
+   "norme": [
+    "GDPR art. 35",
+    "WP248 rev.01",
+    "Garante provv. 467/2018"
+   ],
+   "fonte": {
+    "stato": "base",
+    "data": "2026-10-13",
+    "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=0&art.flagTipoArticolo=1&art.codiceRedazionale=18A07359&art.idArticolo=1&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2018-11-19&art.progressivo=0",
+    "etichetta": "Garante, elenco DPIA"
+   }
+  },
+  {
+   "tipo": "da_fare",
+   "quando": "entro_30_giorni",
+   "azione": "Comunica per iscritto ai clienti che lo studio usa l'IA, con l'elenco degli strumenti",
+   "norme": [
+    "L. 132/2025 art. 13",
+    "Codice deontologico art. 21 c. 10"
+   ],
+   "fonte": {
+    "stato": "base",
+    "data": "2026-10-13",
+    "url": "https://commercialisti.it/wp-content/uploads/2025/12/Codice-Deontologico_modifiche-2025_def.pdf",
+    "etichetta": "Codice deontologico, art. 21"
+   }
+  },
+  {
+   "tipo": "da_fare",
+   "quando": "entro_30_giorni",
+   "azione": "Compila il registro dei trattamenti, come titolare e come responsabile",
+   "nota": "Con l'IA tra gli strumenti e il fornitore tra i destinatari.",
+   "norme": [
+    "GDPR art. 30(2), 30(5)"
+   ],
+   "fonte": {
+    "stato": "base",
+    "data": "2026-10-13",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679",
+    "etichetta": "GDPR, art. 30"
+   }
+  },
+  {
+   "tipo": "da_fare",
+   "quando": "entro_30_giorni",
+   "azione": "Scrivi una regola interna di una pagina e fai una formazione documentata sull'IA",
+   "norme": [
+    "AI Act art. 4",
+    "D.Lgs. 179/2026 art. 47"
+   ],
+   "fonte": {
+    "stato": "base",
+    "data": "2026-10-13",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2026-10-07;179~art47",
+    "etichetta": "D.Lgs. 179/2026, art. 47"
+   }
+  }
+ ],
+ "setup": [
+  {
+   "nome": "Piano commerciale a posti, più un flusso separato in UE per i cedolini",
+   "per_cosa": "Bozze e riassunti sul piano a posti. Cedolini e CU su un modello open erogato da un provider europeo che dichiara di non conservare i contenuti.",
+   "pro": [
+    "I dati sensibili non passano dal piano a posti",
+    "Costo di consumo molto basso",
+    "Nessun hardware da gestire"
+   ],
+   "contro": [
+    "Il flusso sui cedolini va costruito",
+    "La qualità del modello open in italiano va provata"
+   ],
+   "costo": "125 $ al mese per 5 posti, più circa 3 € al mese di consumo",
+   "consigliato": true
+  },
+  {
+   "nome": "Solo piano commerciale a posti",
+   "per_cosa": "Tutto il lavoro. Per i cedolini non basta: il contratto del fornitore non contempla i dati sensibili.",
+   "pro": [
+    "Pronto subito"
+   ],
+   "contro": [
+    "L'oscuramento a mano si dimentica",
+    "Il contratto del fornitore non contempla le categorie particolari"
+   ],
+   "costo": "125 $ al mese per 5 posti",
+   "consigliato": false,
+   "regge": false
+  },
+  {
+   "nome": "Macchina in studio con modello open",
+   "per_cosa": "Tutto il lavoro sui documenti, senza fornitori esterni di IA.",
+   "pro": [
+    "Nessun trasferimento di dati",
+    "Nessun contratto con un fornitore di IA"
+   ],
+   "contro": [
+    "Sicurezza, backup e aggiornamenti restano allo studio",
+    "Spesa iniziale"
+   ],
+   "costo": "5.909 € IVA inclusa una tantum, circa 163 € al mese su tre anni con l'energia",
+   "consigliato": false
+  }
+ ],
+ "costi": {
+  "ipotesi": "Cinque persone. Per le voci a consumo: 20 milioni di token in ingresso e 4 in uscita al mese. È un'ipotesi: va sostituita con i consumi reali. Prezzi di listino letti il 13 ottobre 2026, tasse escluse.",
+  "voci": [
+   {
+    "voce": "Piano commerciale a posti, 5 posti",
+    "importo": "125,00 $ al mese",
+    "nota": "Mensile. Con fatturazione annuale 100 $."
+   },
+   {
+    "voce": "API di un modello open in UE",
+    "importo": "3,20 € al mese",
+    "nota": "Qualità in italiano da provare."
+   },
+   {
+    "voce": "API di un modello closed in regione UE",
+    "importo": "88,00 $ al mese",
+    "nota": "Alternativa al modello open per il flusso sui cedolini."
+   },
+   {
+    "voce": "Mac Studio 128 GB in studio",
+    "importo": "162,90 € al mese",
+    "nota": "4.843 € senza IVA su 36 mesi, più energia per 100 W medi."
+   }
+  ]
+ },
+ "aperti": [
+  "Nessuna fonte è stata riaperta online per questo esempio: tutte le azioni vengono dalla base del 13 ottobre 2026.",
+  "Per l'Agenzia delle Entrate non è stata trovata una regola espressa sugli accessi automatizzati fuori dai servizi API: va chiesto per iscritto.",
+  "Il contratto sui dati di alcuni fornitori indica \"None\" alla voce categorie particolari: non è chiaro se sia un divieto o un'assenza di previsione.",
+  "Il D.Lgs. 179/2026 entra in vigore il 23 ottobre 2026: le ore minime di formazione sull'IA non sono ancora fissate.",
+  "La soglia per l'esenzione dal registro dei trattamenti potrebbe cambiare: una modifica è al voto il 23 novembre 2026.",
+  "Non è chiaro se i caricamenti già fatti sull'abbonamento personale siano una violazione da notificare: va chiesto a un legale privacy."
+ ],
+ "fonti": [
+  {
+   "etichetta": "GDPR, Reg. (UE) 2016/679",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679",
+   "stato": "base",
+   "data": "2026-10-13"
+  },
+  {
+   "etichetta": "Legge 132/2025",
+   "url": "https://www.gazzettaufficiale.it/eli/id/2025/09/25/25G00143/sg",
+   "stato": "base",
+   "data": "2026-10-13"
+  }
+ ],
+ "segnali_da_confermare": [
+  "fuori_ue"
+ ],
+ "rischi": [
+  "I testi caricati sull'abbonamento personale possono essere usati per addestrare i modelli e restare dal fornitore per anni.",
+  "Per le violazioni degli obblighi su contratti e sicurezza il GDPR prevede sanzioni fino a 10 milioni di euro o al 2% del fatturato.",
+  "Entrare in un portale con credenziali altrui fuori dalle sue regole è un reato."
+ ]
+}
