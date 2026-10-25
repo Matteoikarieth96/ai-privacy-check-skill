@@ -100,6 +100,7 @@ python3 -m unittest discover -s tests
 - [whiteboard-video](https://github.com/Matteoikarieth96/whiteboard-video-skill): video esplicativi disegnati a mano, con voce
 - [beer-can-label](https://github.com/Matteoikarieth96/beer-can-label-skill): etichette per lattine di birra con anteprima 3D
 - [3d-print-design](https://github.com/Matteoikarieth96/3d-print-design-skill): pezzi parametrici per la stampa 3D
+- [skill-release](https://github.com/Matteoikarieth96/skill-release-skill): pubblicare una skill su GitHub senza far trapelare nulla, con scansione automatica e revisione indipendente
 
 ## Versioni
 
