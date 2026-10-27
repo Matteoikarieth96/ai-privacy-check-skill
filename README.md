@@ -102,6 +102,7 @@ python3 -m unittest discover -s tests
 - [3d-print-design](https://github.com/Matteoikarieth96/3d-print-design-skill): pezzi parametrici per la stampa 3D
 - [skill-release](https://github.com/Matteoikarieth96/skill-release-skill): pubblicare una skill su GitHub senza far trapelare nulla, con scansione automatica e revisione indipendente
 - [breadboard-wiring-guide](https://github.com/Matteoikarieth96/breadboard-wiring-guide-skill): collegamenti passo passo su breadboard per Arduino UNO, con un disegno e l'avviso USB a ogni passo
+- [token-checkup-skill](https://github.com/Matteoikarieth96/token-checkup-skill): controllo settimanale dei token per Claude Code: dimensione delle sessioni, cosa si carica all'avvio, memoria sempre veritiera
 
 ## Versioni
 
