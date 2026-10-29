@@ -103,6 +103,7 @@ python3 -m unittest discover -s tests
 - [skill-release](https://github.com/Matteoikarieth96/skill-release-skill): pubblicare una skill su GitHub senza far trapelare nulla, con scansione automatica e revisione indipendente
 - [breadboard-wiring-guide](https://github.com/Matteoikarieth96/breadboard-wiring-guide-skill): collegamenti passo passo su breadboard per Arduino UNO, con un disegno e l'avviso USB a ogni passo
 - [token-checkup-skill](https://github.com/Matteoikarieth96/token-checkup-skill): controllo settimanale dei token per Claude Code: dimensione delle sessioni, cosa si carica all'avvio, memoria sempre veritiera
+- [portfolio-report](https://github.com/Matteoikarieth96/portfolio-report-skill): report di portafoglio in inglese e one-pager A4 da un export Fineco, con un interruttore per nascondere gli importi
 
 ## Versioni
 
