@@ -105,6 +105,7 @@ python3 -m unittest discover -s tests
 - [token-checkup-skill](https://github.com/Matteoikarieth96/token-checkup-skill): controllo settimanale dei token per Claude Code: dimensione delle sessioni, cosa si carica all'avvio, memoria sempre veritiera
 - [portfolio-report](https://github.com/Matteoikarieth96/portfolio-report-skill): report di portafoglio in inglese e one-pager A4 da un export Fineco, con un interruttore per nascondere gli importi
 - [cartoon-shorts](https://github.com/Matteoikarieth96/cartoon-shorts-skill): video animati a cartoni (9:16) per YouTube Shorts, TikTok e Reels, con intervista iniziale, creati in locale
+- [notion-todo](https://github.com/Matteoikarieth96/notion-todo-skill): gestire le liste di cose da fare in Notion con frasi semplici, senza mai mescolare una lista con l'altra
 
 ## Versioni
 
