@@ -1,6 +1,6 @@
 ---
 name: ai-privacy-check
-description: Analisi preliminare di privacy e regole sull'IA (GDPR, AI Act, legge 132/2025) per un caso d'uso concreto in Italia e UE. Dice ruoli, obblighi, cosa fermare, soluzione e costi, in un rapporto di una pagina con fonti. Usala ogni volta che qualcuno chiede se o come può usare l'IA su dati di clienti, pazienti, dipendenti o fascicoli, anche senza nominare la skill, es. "posso caricare questi documenti su ChatGPT", "è a norma GDPR", "serve la DPIA", "can I use AI on client data". Non è un parere legale. Non per una domanda secca su un articolo né per ordinamenti fuori da Italia e UE.
+description: Analisi preliminare di privacy e regole sull'IA (GDPR, AI Act, legge 132/2025) per un caso d'uso concreto in Italia e UE, in un rapporto di una pagina con fonti. Usala quando qualcuno chiede se o come può usare l'IA su dati di clienti, pazienti, dipendenti o fascicoli, es. "posso caricare questi documenti su ChatGPT", "è a norma GDPR", "serve la DPIA". Non per una domanda secca su un articolo.
 ---
 
 # ai-privacy-check
@@ -8,6 +8,8 @@ description: Analisi preliminare di privacy e regole sull'IA (GDPR, AI Act, legg
 Guarda un caso d'uso dell'IA come lo guarderebbe un consulente prudente prima di toccare un dato vero: chi risponde dei dati, cosa c'è dentro, quali regole scattano, quale strumento regge e cosa resta da chiarire.
 
 Il risultato è un rapporto di una pagina che risponde a tre domande: cosa si può fare, cosa non si può, cosa va fatto. Il livello di qualità: ogni azione ha una norma e una fonte con data, ciò che non si è potuto controllare è scritto come non verificato (mai come a posto), e il livello di attenzione segue le regole scritte in [references/livelli.md](references/livelli.md).
+
+Fuori campo: una domanda secca su un articolo e gli ordinamenti fuori da Italia e UE.
 
 `SKILL_DIR` è la cartella che contiene questo file. Gli script sono Python 3.9+, solo libreria standard. Lanciali con `python3 -B` per non lasciare file nella cartella della skill.
 
